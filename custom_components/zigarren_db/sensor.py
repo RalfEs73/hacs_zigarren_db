@@ -18,7 +18,7 @@ class ZigarrenHumidorSensor(SensorEntity):
         self._humidor_id = humidor_id
         self._attr_name = name
         self._attr_native_unit_of_measurement = "%"
-        self._attr_device_class = "humidity
+        self._attr_device_class = "humidity"
         self._attr_native_value = None
         self._attr_extra_state_attributes = {}
 
