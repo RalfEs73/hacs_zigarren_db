@@ -1,0 +1,9 @@
+{
+  "domain": "zigarren_db",
+  "name": "Zigarren Datenbank",
+  "documentation": "https://github.com/RalfEs73/zigarren_db3",
+  "dependencies": [],
+  "codeowners": ["@RalfEs73"],
+  "requirements": [],
+  "version": "0.0.19"
+}

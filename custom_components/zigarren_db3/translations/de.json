@@ -1,0 +1,10 @@
+{
+  "entity": {
+    "sensor": {
+      "zigarren_humidor": {
+        "name": "Zigarren Humidor",
+        "state": "Feuchtigkeit"
+      }
+    }
+  }
+}

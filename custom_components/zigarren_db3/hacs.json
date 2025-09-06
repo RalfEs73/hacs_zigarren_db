@@ -1,0 +1,9 @@
+{
+  "name": "Zigarren Datenbank",
+  "content_in_root": false,
+  "domain": "zigarren_db",
+  "country": "DE",
+  "homeassistant": "2023.0.0",
+  "render_readme": true,
+  "zip_release": false
+}
