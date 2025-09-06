@@ -3,7 +3,7 @@ Diese Home Assistant Integration ruft die Feuchtigkeitsdaten aus deinem Zigarren
 
 ## Installation
 
-Füge die Integration manuell in deiner `configuration.yaml` hinzu:
+Füge die einzelnen Humidore manuell in deiner `configuration.yaml` hinzu:
 
 ```yaml
 sensor:
