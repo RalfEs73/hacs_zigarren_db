@@ -8,16 +8,14 @@ Füge die Integration manuell in deiner `configuration.yaml` hinzu:
 
 ```yaml
 sensor:
-  - platform: zigarren_db3
+  - platform: zigarren_db
     humidor_id: 1
     name: Mein Humidor
 
-  - platform: zigarren_db3
+  - platform: zigarren_db
     humidor_id: 4
-    name: Feuerwehr Humidor
+    name: Humidorschrank
 ```
-
-
 
 ## Lizenz
 MIT
