@@ -13,8 +13,8 @@ sensor:
 
   - platform: zigarren_db
     humidor_id: 4
-	name: Humidorschrank
-	scan_interval: 15
+    name: Humidorschrank
+    scan_interval: 15
 ```
 
 
