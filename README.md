@@ -1,4 +1,4 @@
-# Zigarren Datenbank
+# Zigarren Datenbank – Home Assistant Integration
 Diese Home Assistant Integration ruft die Feuchtigkeitsdaten aus deinem Zigarren-Humidor über die Zigarren-DB API ab.
 
 ## ⚙️ Installation
