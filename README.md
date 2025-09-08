@@ -8,7 +8,7 @@ Füge die einzelnen Humidore manuell in deiner `configuration.yaml` hinzu:
 sensor:
   - platform: zigarren_db
     name: Mein Humidor
-	humidor_id: 1
+    humidor_id: 1
     api: xxxxxxxxxxxx
   - platform: zigarren_db
     humidor_id: 4
