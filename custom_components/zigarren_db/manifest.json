@@ -3,7 +3,7 @@
   "name": "Zigarren Datenbank",
   "documentation": "https://github.com/RalfEs73/hacs_zigarren_db",
   "issue_tracker": "https://github.com/RalfEs73/hacs_zigarren_db/issues",
-  "logo": "custom_components/zigarren_db/images/logo.png"
+  "logo": "custom_components/zigarren_db/images/logo.png",
   "dependencies": [],
   "codeowners": ["@RalfEs73"],
   "requirements": [],
