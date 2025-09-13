@@ -27,7 +27,7 @@ class ZigarrenHumidorSensor(SensorEntity):
 
     async def async_update(self):
         session = async_get_clientsession(self.hass)
-        url = f"https://zigarren-db.de/api/ha_humidor.php?humidor_id={self._humidor_id}&api={self._api}"
+        url = f"https://zigarren-db.de/api/ha_humidor_test.php?humidor_id={self._humidor_id}&api={self._api}"
         headers = {
             "Accept": "application/json",
             "User-Agent": "HomeAssistant/2025.9"
