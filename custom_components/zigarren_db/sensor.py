@@ -1,12 +1,13 @@
 from homeassistant.components.sensor import SensorEntity
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
+from aiohttp import ClientTimeout
 import logging
 
 _LOGGER = logging.getLogger(__name__)
 
 async def async_setup_platform(hass, config, async_add_entities, discovery_info=None):
     humidor_id = config.get("humidor_id")
-    api = config.get("api", "")  # Zusätzlicher Parameter für die URL
+    api = config.get("api", "")
     name = config.get("name", f"Humidor {humidor_id}")
     
     if humidor_id is not None and api:
@@ -32,7 +33,8 @@ class ZigarrenHumidorSensor(SensorEntity):
             "Accept": "application/json",
             "User-Agent": "HomeAssistant/2025.9"
         }
-
+        timeout = ClientTimeout(total=120)  # Timeout auf 60 Sekunden
+        
         try:
             async with session.get(url, headers=headers) as response:
                 content_type = response.headers.get("Content-Type", "")

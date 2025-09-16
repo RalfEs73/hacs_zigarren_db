@@ -9,12 +9,12 @@ sensor:
   - platform: zigarren_db
     name: Mein Humidor
     humidor_id: 1
-    api: xxxxxxxxxxxx
+    api: x-xxxxxxx-xxxxxxx-xxxxxxx
   - platform: zigarren_db
     humidor_id: 4
     name: Humidorschrank
-    api: xxxxxxxxxxxx
-    scan_interval: 15
+    api: x-xxxxxxx-xxxxxxx-xxxxxxx
+    scan_interval: 300  # Optional - Alle 5 Minuten (300 Sekunden)
 ```
 
 ## 🪲️ Debugging Code
